@@ -73,4 +73,4 @@ Host remote-host
 
 With this set in the `~/.ssh/config` any ssh connection to the remote host will be accomplished by forwarding stdin and stdout through a secure connection from bastion-host.
 
-The ssh command is a powerful too.  While it might be most used in it's simplest form, `ssh user@hostname`, there are literally dozens of uses, flags and configurations to make connections from one host to another.  Check out ssh's manual page (`man ssh`) sometime to discover all the different options available with this seemingly simple program.
+The ssh command is a powerful tool.  While it might be most used in it's simplest form, `ssh user@hostname`, there are literally dozens of uses, flags and configurations to make connections from one host to another.  Check out ssh's manual page (`man ssh`) sometime to discover all the different options available with this seemingly simple program.
