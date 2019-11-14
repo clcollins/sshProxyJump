@@ -2,7 +2,7 @@
 
 The concept of [bastion hosts](https://en.wikipedia.org/wiki/Bastion_host) is nothing new to computing. Baston hosts are usually public-facing, hardened systems that serve as an entrypoint to systems behind a firewall or other restricted location, and is especially popular with the rise of cloud computing. 
 
-The ssh command has an easy way to make use of bastion hosts to connect to a remote host with a single command.  Instead of first ssh-ing to the bastion host, and then using ssh on the bsation to connect to the remote host, ssh can create the initial and second connections itself, using `ProxyJump`.
+The ssh command has an easy way to make use of bastion hosts to connect to a remote host with a single command.  Instead of first ssh-ing to the bastion host, and then using ssh on the bastion to connect to the remote host, ssh can create the initial and second connections itself, using `ProxyJump`.
 
 
 ## ProxyJump
