@@ -1,3 +1,5 @@
+#This repository is archived and will no longer receive updates.
+
 # Connecting to remote hosts though a proxy or bastion with ssh ProxyJump
 
 The concept of [bastion hosts](https://en.wikipedia.org/wiki/Bastion_host) is nothing new to computing. Baston hosts are usually public-facing, hardened systems that serve as an entrypoint to systems behind a firewall or other restricted location, and is especially popular with the rise of cloud computing. 
